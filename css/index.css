@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../img/login1.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 350px;
+    background: rgba(5, 5, 5, 0.959);
+    border-radius: 20% 0;
+    box-shadow: 1px 2px 10px rgba(5, 5, 5, 0.959), 2px 6px 50px rgba(5, 5, 5, 0.959);
+    padding: 50px 20px;
+}
+h3{
+    font-size: 30px;
+    color: rgba(252, 246, 246, 0.952);
+    text-align: center;
+    margin: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+input{
+    width: 100%;
+    height: 46px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(252, 246, 246, 0.952);
+    color:rgba(252, 246, 246, 0.952);
+    transition: .25s ease-in-out;
+}
+input-field{
+    position: relative;
+    margin-bottom: 20px;
+}
+input:focus{
+    border-bottom: SteelBlue 1px solid ;
+    box-shadow: 0 1px 0 0 SteelBlue;
+}
+input:not(:placeholder-shown){
+    border-bottom: 2px solid SteelBlue;
+    box-shadow: 0 1px 0 0 SteelBlue;
+}
+input::placeholder{
+    color:rgba(252, 246, 246, 0.952);
+    font-family: 'Open Sans', sans-serif;
+}
+button{
+    padding: 15px 50px;
+    margin: 30px;
+    background: transparent;
+    border: 2px solid rgba(252, 246, 246, 0.952);
+    color: rgba(252, 246, 246, 0.952);
+    text-transform: uppercase;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: ease-in-out .25;
+    font-family: 'Open Sans', sans-serif;
+}
+button:hover{
+    background: rgba(255, 0, 0, 0.9);
+}
+.center{
+    text-align: center;
+}
+.erro{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(252, 246, 246, 0.952);
+    background: rgba(255, 0, 0, 0.9);
+    border: 2px solid rgba(252, 246, 246, 0.952);
+    margin: 30px;
+    border-radius: 20px;
+    padding: 7px 10px;
+    
+}
